@@ -12,3 +12,8 @@
 **/credentials.json
 **/.DS_Store
 Thumbs.db
+# Reference materials excluded from this research repository
+/01_文献库/
+/02_业界与开源资料/
+/03_调研报告/
+/04_项目代码/
