@@ -1,0 +1,141 @@
+{
+  "mod": 0.5,
+  "drift": 0.005,
+  "k": 3,
+  "sigma": 1,
+  "samples": [
+    13770,
+    5950,
+    6970
+  ],
+  "splits": {
+    "validation": {
+      "date_range": [
+        "2026-05-12",
+        "2026-06-30"
+      ],
+      "models": {
+        "zero": {
+          "rmse_bp": 19.624763352714474,
+          "rank_ic": null,
+          "sign_match": 0.006386554621848739
+        },
+        "raw": {
+          "rmse_bp": 23.61328974772134,
+          "rank_ic": -0.04096026520716702,
+          "sign_match": 0.48436974789915965
+        },
+        "random_pool": {
+          "rmse_bp": 22.016614620232136,
+          "rank_ic": -0.012110566170762834,
+          "sign_match": 0.4966386554621849
+        },
+        "stdp_pool": {
+          "rmse_bp": 23.94408412753093,
+          "rank_ic": -0.0016444518245381523,
+          "sign_match": 0.49714285714285716
+        }
+      },
+      "neighbors": {
+        "raw": {
+          "mean_within_neighbor_std_bp": 9.651052840809074,
+          "mean_abs_neighbor_target_error_bp": 18.80532315133367,
+          "unanimous_nonzero_sign_fraction": 0.25865546218487395,
+          "mean_distinct_neighbor_days": 2.813781512605042
+        },
+        "random_pool": {
+          "mean_within_neighbor_std_bp": 10.573285206521135,
+          "mean_abs_neighbor_target_error_bp": 19.68570991878354,
+          "unanimous_nonzero_sign_fraction": 0.24067226890756302,
+          "mean_distinct_neighbor_days": 2.707731092436975
+        },
+        "stdp_pool": {
+          "mean_within_neighbor_std_bp": 12.451604167448037,
+          "mean_abs_neighbor_target_error_bp": 21.01773217847467,
+          "unanimous_nonzero_sign_fraction": 0.2526050420168067,
+          "mean_distinct_neighbor_days": 2.150420168067227
+        },
+        "uniform_reference": {
+          "mean_within_neighbor_std_bp": 12.001702320620828,
+          "mean_abs_neighbor_target_error_bp": 20.46990331864729,
+          "unanimous_nonzero_sign_fraction": 0.2447058823529412,
+          "mean_distinct_neighbor_days": 2.9631932773109244
+        }
+      },
+      "stdp_rank_ic_delta_ci": {
+        "raw": [
+          -0.02640762587832083,
+          0.101535787276391
+        ],
+        "random_pool": [
+          -0.0344871099076998,
+          0.0524809493515784
+        ]
+      }
+    },
+    "diagnostic": {
+      "date_range": [
+        "2026-07-01",
+        "2026-09-01"
+      ],
+      "models": {
+        "zero": {
+          "rmse_bp": 23.760136243540394,
+          "rank_ic": null,
+          "sign_match": 0.005021520803443328
+        },
+        "raw": {
+          "rmse_bp": 27.73742089437675,
+          "rank_ic": 0.0014866969310733014,
+          "sign_match": 0.4923959827833572
+        },
+        "random_pool": {
+          "rmse_bp": 25.724662583786778,
+          "rank_ic": -0.00694244663681411,
+          "sign_match": 0.4946915351506456
+        },
+        "stdp_pool": {
+          "rmse_bp": 26.871133379779668,
+          "rank_ic": 0.02239891929643457,
+          "sign_match": 0.503586800573888
+        }
+      },
+      "neighbors": {
+        "raw": {
+          "mean_within_neighbor_std_bp": 10.775793773536085,
+          "mean_abs_neighbor_target_error_bp": 21.024042817247324,
+          "unanimous_nonzero_sign_fraction": 0.25538020086083213,
+          "mean_distinct_neighbor_days": 2.8499282639885224
+        },
+        "random_pool": {
+          "mean_within_neighbor_std_bp": 10.668555180080535,
+          "mean_abs_neighbor_target_error_bp": 21.31418234280049,
+          "unanimous_nonzero_sign_fraction": 0.22740315638450503,
+          "mean_distinct_neighbor_days": 2.7055954088952654
+        },
+        "stdp_pool": {
+          "mean_within_neighbor_std_bp": 12.410331128522676,
+          "mean_abs_neighbor_target_error_bp": 22.424361312475405,
+          "unanimous_nonzero_sign_fraction": 0.2648493543758967,
+          "mean_distinct_neighbor_days": 2.2116212338593972
+        },
+        "uniform_reference": {
+          "mean_within_neighbor_std_bp": 12.247623097091475,
+          "mean_abs_neighbor_target_error_bp": 22.23321888378175,
+          "unanimous_nonzero_sign_fraction": 0.24289813486370157,
+          "mean_distinct_neighbor_days": 2.9615494978479195
+        }
+      },
+      "stdp_rank_ic_delta_ci": {
+        "raw": [
+          -0.020151797516513647,
+          0.06375110142920824
+        ],
+        "random_pool": [
+          -0.006412151198828843,
+          0.06775783417949288
+        ]
+      }
+    }
+  }
+}

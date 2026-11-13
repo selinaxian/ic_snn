@@ -1,0 +1,11 @@
+{
+  "config.json": "ba598cbf9ac672594cd4c1dc9ab92b0039905bad3de9c512ebe699d11b690a37",
+  "data\\bars.csv": "c91aeddae768386dbe42169555d75abd7e5f92edce6b7dfb0a1003dc5a596422",
+  "run.py": "213552a46cc963696973b6decffc8fb2cbe53bc7475a3cb7c529ada4ff4961fe",
+  "src\\data.py": "f128f9d1dfd9c992b4e0de759c2d56b439c0f1e3aa7a8b2f45b351954d87e33a",
+  "src\\encoding.py": "ad84e26ae712268b8d6e84c50c6ea65fe40bcbc2b35e69d8e7c9c87b6e5b435b",
+  "src\\evaluation.py": "7d054c329496114d3a74528cb754abcb8559650bb287d75c503d1a6d0131b731",
+  "src\\network.py": "7163ec8b8e8b42775d5487fa064fa85e34390663db473a67b55894e919071d45",
+  "src\\strategy.py": "38b8918d885a34dfed5a48c473587405a0264aab38980fdf41bb30fc6ba7461a",
+  "src\\__init__.py": "d351631fb48bce7a0c4b48cc0b596666345c5d6073ccb53515d41598488f6cd3"
+}

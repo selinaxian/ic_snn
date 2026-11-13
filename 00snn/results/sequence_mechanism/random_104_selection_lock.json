@@ -1,0 +1,13 @@
+{
+  "neuron": 50,
+  "key_channel": 2,
+  "control_channel": 16,
+  "selection_contrast": 0.14218750000000002,
+  "key_weight": 0.3663546660302772,
+  "key_initial_weight": 0.3663546660302772,
+  "control_weight": 0.37899414751592153,
+  "key_mean_input_count": 2.29375,
+  "control_mean_input_count": 0.86875,
+  "seed": 104,
+  "arm": "random"
+}

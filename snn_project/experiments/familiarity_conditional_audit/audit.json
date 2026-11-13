@@ -1,0 +1,11 @@
+{
+  "source": "experiments\\whole_window_familiarity\\whole_window_signals.csv",
+  "source_sha256": "e3e5fefa2dc877a71b989543832c2b704bb72668cc94541e10615b90aabeeefe",
+  "rows": 13800,
+  "missing_labels": 120,
+  "verified": "all labels/ranges rechecked from source bars; no cross-session labels",
+  "method": "5 contiguous four-day cross-fit blocks within each historical test fold; exact clock fixed effects plus train-only linear splines, pairwise interactions; ridge 0.001; no tuning",
+  "inference": "2000 day-cluster bootstrap draws with nuisance fits fixed; descriptive intervals, not final hypothesis tests",
+  "limitations": "Same clock confounds clock with startup age. Controls may mediate STDP effects. Existing score only; not a test of all raster information. Diagnostic fits use other test days including later days, so residuals are NOT deployable.",
+  "matches": "high >=0.8 vs low <=0.2, exact clock, each nuisance rank gap <=0.15; nearest nuisance distance; low windows may be reused; descriptive only"
+}

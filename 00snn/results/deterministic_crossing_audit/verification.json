@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "new_models": 6,
+  "reused_models": 6,
+  "test_minutes": 880,
+  "labeled_minutes": 870,
+  "deterministic_encoding_and_prefix": true,
+  "replay_and_reload_exact": true,
+  "weights_and_theta_frozen": true,
+  "readout_raw_features": 0,
+  "hashes": {
+    "deterministic_crossing_audit.py": "7ee2f2f8f430a4f6e6edf6734442928fb12d320fc9a11f472d1676df05e1d94e",
+    "src\\crossing_encoding.py": "e03679b6dd32d42dd333822329c39e583218f95add1967e0663f134af1babb45",
+    "src\\network.py": "49a1b6cdea81868619f8eb70572d354c6be17375a616fce62790fbbde41981d1",
+    "src\\stdp.py": "98e76db646d118c17b792fa1448388b916b2e308f2d91d0b230798264a1d94dd",
+    "audit_utils.py": "b2d2e8c85ee63f213aa3d947dff7f3d8f637f58c2acfc53ae172f17c5c4dd075"
+  }
+}

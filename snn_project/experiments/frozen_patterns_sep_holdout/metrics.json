@@ -1,0 +1,90 @@
+{
+  "first_day": "2026-09-02",
+  "last_day": "2026-09-15",
+  "days": 9,
+  "minutes_per_shape": 1980,
+  "verified_prior_bars": 37680,
+  "input_sha256": "3d833ab18c0bea1a96074b0ce3b0fb24e0b72105a1c4dc08944c65fdc3a4c1ff",
+  "patterns": {
+    "35": {
+      "age0_n": 319,
+      "age2_n": 316,
+      "both_n": 0,
+      "age0_days": 9,
+      "age2_days": 9,
+      "age0_mean_bp": 0.05512888345183049,
+      "age2_mean_bp": -0.31226766859979366,
+      "age0_minus_age2_bp": 0.36739655205162425,
+      "age0_minus_nontrigger_same_clock_bp": -1.0766429369534396,
+      "age0_with_clock_control": 319,
+      "position_ci": [
+        -0.7474211998047817,
+        1.324949299452815
+      ],
+      "same_clock_ci": [
+        -2.872850259141234,
+        0.7041502586606889
+      ]
+    },
+    "37": {
+      "age0_n": 187,
+      "age2_n": 185,
+      "both_n": 0,
+      "age0_days": 8,
+      "age2_days": 8,
+      "age0_mean_bp": 0.9798062204973003,
+      "age2_mean_bp": -0.3294180418366935,
+      "age0_minus_age2_bp": 1.309224262333994,
+      "age0_minus_nontrigger_same_clock_bp": 1.3493777257642359,
+      "age0_with_clock_control": 187,
+      "position_ci": [
+        0.24577484638951075,
+        3.095512926954641
+      ],
+      "same_clock_ci": [
+        -1.068510876851252,
+        3.4938937599862974
+      ]
+    },
+    "38": {
+      "age0_n": 287,
+      "age2_n": 282,
+      "both_n": 0,
+      "age0_days": 9,
+      "age2_days": 9,
+      "age0_mean_bp": 0.6801749325784079,
+      "age2_mean_bp": -0.5116580778063461,
+      "age0_minus_age2_bp": 1.1918330103847539,
+      "age0_minus_nontrigger_same_clock_bp": 0.39014294029514046,
+      "age0_with_clock_control": 287,
+      "position_ci": [
+        -0.01785514734487421,
+        2.2165110722318198
+      ],
+      "same_clock_ci": [
+        -1.9144009354922795,
+        2.1292902142155756
+      ]
+    },
+    "43": {
+      "age0_n": 257,
+      "age2_n": 255,
+      "both_n": 0,
+      "age0_days": 9,
+      "age2_days": 9,
+      "age0_mean_bp": 1.358850345272263,
+      "age2_mean_bp": 0.8378033200962506,
+      "age0_minus_age2_bp": 0.5210470251760116,
+      "age0_minus_nontrigger_same_clock_bp": 1.0533941989502411,
+      "age0_with_clock_control": 257,
+      "position_ci": [
+        -0.3619897232793451,
+        1.4743301000436126
+      ],
+      "same_clock_ci": [
+        -2.3390275452186597,
+        4.016453005845097
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "primary_key": [
+    "instrument_id",
+    "datetime"
+  ],
+  "columns": {
+    "instrument_id": "string",
+    "contract_id": "string",
+    "instrument_type": "string",
+    "datetime": "datetime64[ns, Asia/Shanghai]",
+    "trading_date": "string",
+    "session": "string",
+    "open": "float64",
+    "high": "float64",
+    "low": "float64",
+    "close": "float64",
+    "open_interest": "int64",
+    "volume": "int64",
+    "source_id": "string",
+    "source_row": "int64",
+    "quality_flags": "string"
+  },
+  "contract_id_policy": "filename code for named contracts; null for rolling series",
+  "source_id_lookup": "metadata/source_members.csv; source_archive is relative to source_root",
+  "source_row_definition": "physical CSV line number (header normally line 1)",
+  "timezone": "Asia/Shanghai",
+  "bar_duration_seconds": 60,
+  "supplier": "unknown",
+  "supplier_price_adjustment": "unknown",
+  "supplier_timestamp_label": "unknown",
+  "volume_units": "unknown",
+  "trading_date_policy": "local date for IC day sessions",
+  "gap_policy": "no fill; observed archive dates only; no exchange calendar claimed",
+  "quality_flags": {
+    "outside_reference_session": "not on observed minute-end reference grid",
+    "zero_volume": "valid zero count, retained without fabrication"
+  }
+}

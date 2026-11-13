@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "pairs": 180,
+  "seeds": [
+    104,
+    211,
+    307
+  ],
+  "trained_models": 540,
+  "frozen_random_models": 540,
+  "minute_rows": 213840,
+  "unique_minutes": 35640,
+  "elapsed_seconds": 144.93800000008196,
+  "feature_rebuild_verified": true,
+  "test_weights_frozen": true,
+  "batched_vs_single_replay_exact": true,
+  "scope": "Gao-inspired multifactor minute adaptation, not exact published replication; cost scenario not historical fee audit"
+}

@@ -1,0 +1,91 @@
+{
+  "network_seed": 104,
+  "encoding_seeds": [
+    104,
+    211,
+    307
+  ],
+  "permutation_seeds": [
+    211,
+    307
+  ],
+  "variants": [
+    "base",
+    "rate_211",
+    "rate_307",
+    "timing_211",
+    "timing_307"
+  ],
+  "epochs": 3,
+  "scope": "fixed first fold, one initialization, 3 rate draws including baseline, 2 count-preserving permutations",
+  "common_probe": "baseline encoded calibration/test input for every trained network",
+  "native_probe": "each network receives its own encoding at calibration/test",
+  "training": "same realization repeated across epochs, original adaptation rules for random and stdp",
+  "readout": "same prior audit: full12x8x64 plus raw, calibration only, fixed lambda0.01",
+  "target": "next minute absolute close-to-close log return bp; no horizon/encoding/model tuning",
+  "comparisons": "weights and updates by neuron identity; nearest weight cosine is many-to-one descriptive only; common and native responses; total prediction and increment over raw",
+  "dates": {
+    "fold": 0,
+    "train_dates": [
+      "2026-01-13",
+      "2026-01-14",
+      "2026-01-15",
+      "2026-01-16",
+      "2026-01-19",
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-22",
+      "2026-01-23",
+      "2026-01-26",
+      "2026-01-27",
+      "2026-01-28",
+      "2026-01-29",
+      "2026-01-30",
+      "2026-02-02",
+      "2026-02-03",
+      "2026-02-04",
+      "2026-02-05",
+      "2026-02-06",
+      "2026-02-09",
+      "2026-02-10",
+      "2026-02-11",
+      "2026-02-12",
+      "2026-02-13",
+      "2026-02-24",
+      "2026-02-25",
+      "2026-02-26",
+      "2026-02-27",
+      "2026-03-02",
+      "2026-03-03",
+      "2026-03-04",
+      "2026-03-05",
+      "2026-03-06",
+      "2026-03-09",
+      "2026-03-10",
+      "2026-03-11",
+      "2026-03-12",
+      "2026-03-13",
+      "2026-03-16",
+      "2026-03-17"
+    ],
+    "validation_dates": [
+      "2026-03-18",
+      "2026-03-19",
+      "2026-03-20",
+      "2026-03-23",
+      "2026-03-24",
+      "2026-03-25",
+      "2026-03-26",
+      "2026-03-27",
+      "2026-03-30",
+      "2026-03-31"
+    ],
+    "forecast_dates": [
+      "2026-04-01",
+      "2026-04-02",
+      "2026-04-03",
+      "2026-04-07",
+      "2026-04-08"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "max_prediction_reconstruction_error": 3.552713678800501e-15,
+  "rows": 13800,
+  "labels": 13680,
+  "labels_rebuilt": true,
+  "source_hashes": {
+    "scripts\\response_value_audit.py": "1a9edb431853fa8ce201702d7e67b37d1184b71a3b8586df3fd3bf6823a55949",
+    "scripts\\audit_utils.py": "b2d2e8c85ee63f213aa3d947dff7f3d8f637f58c2acfc53ae172f17c5c4dd075",
+    "scripts\\snn_core\\snncube.py": "022c4a9e4ef7c308f9ba53a0269ca423f4ad02186e48c59f91a6edbaf14cfab5",
+    "scripts\\snn_core\\encoding.py": "7ee409c2a5ed1ae0c86e70bff5f5409545ab03ed37046bccbc22a73515854609"
+  }
+}

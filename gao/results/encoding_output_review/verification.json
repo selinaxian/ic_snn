@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "all_actual_counts_match": true,
+  "all_weights_frozen": true,
+  "all_zero_input_silent": true,
+  "rows": 641520,
+  "audit_source_sha256": "d55c3494733efb13184fdb6a6598f75b5f9b5bc72d939d091c17c39536a298a0"
+}

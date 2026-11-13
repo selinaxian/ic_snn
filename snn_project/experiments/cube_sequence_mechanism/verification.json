@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "model_count": 15,
+  "matched_counts": true,
+  "evaluation_weights_frozen": true,
+  "source_hashes": {
+    "C:\\Users\\admin.IF-202605221802\\Desktop\\\u7c7b\u8111\u8ba1\u7b97+\u91cf\u5316\\snn_project\\scripts\\validate_cube_sequence.py": "f8a870b8d775097e92c5d8eeb2983bf3ce4995c04b9e2e6175dd9d9f20f03c87",
+    "C:\\Users\\admin.IF-202605221802\\Desktop\\\u7c7b\u8111\u8ba1\u7b97+\u91cf\u5316\\snn_project\\scripts\\snn_core\\snncube.py": "022c4a9e4ef7c308f9ba53a0269ca423f4ad02186e48c59f91a6edbaf14cfab5",
+    "C:\\Users\\admin.IF-202605221802\\Desktop\\\u7c7b\u8111\u8ba1\u7b97+\u91cf\u5316\\snn_project\\scripts\\snn_core\\stdp.py": "b3eab52e7011fe7e3d94eaa7dd877b2aa2d315ee2feeefb5400fb6b14ef8cdf2",
+    "C:\\Users\\admin.IF-202605221802\\Desktop\\\u7c7b\u8111\u8ba1\u7b97+\u91cf\u5316\\snn_project\\scripts\\snn_core\\encoding.py": "7ee409c2a5ed1ae0c86e70bff5f5409545ab03ed37046bccbc22a73515854609"
+  }
+}

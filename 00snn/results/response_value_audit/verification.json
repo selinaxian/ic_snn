@@ -1,0 +1,13 @@
+{
+  "max_prediction_reconstruction_error": 3.552713678800501e-15,
+  "unique_minutes": true,
+  "test_points": 880,
+  "labeled_points": 870,
+  "complete": true,
+  "source_hashes": {
+    "response_value_audit.py": "5c35d6c53f4221a36ec2aa24eaaa5a2febf7c6b853c472ca5868024f085d3238",
+    "audit_utils.py": "b2d2e8c85ee63f213aa3d947dff7f3d8f637f58c2acfc53ae172f17c5c4dd075",
+    "src\\network.py": "49a1b6cdea81868619f8eb70572d354c6be17375a616fce62790fbbde41981d1",
+    "src\\encoding.py": "b908c4cfa3496f9a25ba845a799fb7a1cd8a18be07fb8ed90d81b03b49bef3ea"
+  }
+}

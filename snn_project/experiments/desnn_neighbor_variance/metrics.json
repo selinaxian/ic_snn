@@ -1,0 +1,82 @@
+{
+  "target": "sum of next five squared one-minute log returns",
+  "unit": "bp^2",
+  "splits": {
+    "validation": {
+      "days": 35,
+      "samples": 5950,
+      "models": {
+        "raw": {
+          "rank_ic": 0.3127030872052291,
+          "mae_bp2": 262.26228382200804,
+          "rmse_bp2": 399.03319666779026,
+          "mean_within_neighbor_std_bp2": 115.30679083148945,
+          "mean_abs_neighbor_target_error_bp2": 274.32517325203406
+        },
+        "random_pool": {
+          "rank_ic": 0.06035005193193003,
+          "mae_bp2": 289.17313501504344,
+          "rmse_bp2": 438.87867783131605,
+          "mean_within_neighbor_std_bp2": 153.81939395981738,
+          "mean_abs_neighbor_target_error_bp2": 326.23273917006094
+        },
+        "stdp_pool": {
+          "rank_ic": 0.07131551820928578,
+          "mae_bp2": 334.4914236465319,
+          "rmse_bp2": 523.3712769432758,
+          "mean_within_neighbor_std_bp2": 222.5350964082266,
+          "mean_abs_neighbor_target_error_bp2": 371.4350055526261
+        }
+      },
+      "uniform_mean_within_neighbor_std_bp2": 243.39912950526272,
+      "stdp_minus_control_rank_ic_ci": {
+        "raw": [
+          -0.34568949579026687,
+          -0.13244753618390548
+        ],
+        "random_pool": [
+          -0.06634486149738093,
+          0.0931779213324765
+        ]
+      }
+    },
+    "diagnostic": {
+      "days": 41,
+      "samples": 6970,
+      "models": {
+        "raw": {
+          "rank_ic": 0.42768914532458735,
+          "mae_bp2": 404.0047404062017,
+          "rmse_bp2": 969.3051172821856,
+          "mean_within_neighbor_std_bp2": 145.94285204741965,
+          "mean_abs_neighbor_target_error_bp2": 411.1225732692839
+        },
+        "random_pool": {
+          "rank_ic": 0.07054540332770527,
+          "mae_bp2": 458.563492721236,
+          "rmse_bp2": 1061.6726884916454,
+          "mean_within_neighbor_std_bp2": 152.150832407276,
+          "mean_abs_neighbor_target_error_bp2": 493.3103150780614
+        },
+        "stdp_pool": {
+          "rank_ic": 0.09194290730648905,
+          "mae_bp2": 476.6440948069585,
+          "rmse_bp2": 1067.6291723566412,
+          "mean_within_neighbor_std_bp2": 221.2968550257983,
+          "mean_abs_neighbor_target_error_bp2": 517.1771937769945
+        }
+      },
+      "uniform_mean_within_neighbor_std_bp2": 236.5828470979153,
+      "stdp_minus_control_rank_ic_ci": {
+        "raw": [
+          -0.4323090545736934,
+          -0.23463024487458256
+        ],
+        "random_pool": [
+          -0.04246529649993623,
+          0.07369910797978413
+        ]
+      }
+    }
+  }
+}

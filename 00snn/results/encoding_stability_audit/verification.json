@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "trained_networks": 10,
+  "baseline_exactly_reproduced": true,
+  "fixed_count_assertions_passed": true,
+  "evaluation_frozen": true,
+  "unique_test_minutes": 880,
+  "labeled_test_minutes": 870,
+  "source_hashes": {
+    "encoding_stability_audit.py": "936288f78f639b65c2567a0f1f7b7ae7d82be81fa5934a002cd4cacbfb8f951f",
+    "src\\encoding.py": "b908c4cfa3496f9a25ba845a799fb7a1cd8a18be07fb8ed90d81b03b49bef3ea",
+    "src\\network.py": "49a1b6cdea81868619f8eb70572d354c6be17375a616fce62790fbbde41981d1",
+    "src\\stdp.py": "98e76db646d118c17b792fa1448388b916b2e308f2d91d0b230798264a1d94dd",
+    "audit_utils.py": "b2d2e8c85ee63f213aa3d947dff7f3d8f637f58c2acfc53ae172f17c5c4dd075",
+    "encoding_theta_control.py": "bdd9ee5b54a9ac26f541b26d161632160e66d5efdf352890c1a2676ce02f1733"
+  },
+  "supplemental_checks": "common-theta random responses exact; all saved per-minute channel counts equal for timing variants; all initial weights identical; prediction keys unique"
+}

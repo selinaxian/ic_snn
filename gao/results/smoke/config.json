@@ -1,0 +1,49 @@
+{
+  "name": "gao_multifactor_minute_baseline",
+  "seeds": [
+    104,
+    211,
+    307
+  ],
+  "batch_days": 24,
+  "network": {
+    "hidden_per_branch": 64,
+    "steps_per_minute": 20,
+    "threshold": 1.0,
+    "tau_mem": 16.0,
+    "refractory_steps": 2,
+    "tau_stdp": 16.0,
+    "a_plus": 0.002,
+    "a_minus": 0.0022,
+    "initial_hidden_input_sum": 2.4,
+    "initial_output_input_sum": 1.2,
+    "weight_min": 0.0,
+    "weight_max": 1.0,
+    "epochs": 1
+  },
+  "encoding": {
+    "target_mean": 0.13,
+    "target_std": 0.09
+  },
+  "event_evaluation": {
+    "window": 3
+  },
+  "strategy": {
+    "holding_steps": 3,
+    "momentum_lookback": 3,
+    "alexander_lookback": 1,
+    "oscillator_lookback": 3,
+    "random_timing_repeats": 100
+  },
+  "cost_scenario": {
+    "capital_yuan": 1000000.0,
+    "multiplier": 200.0,
+    "tick_size": 0.2,
+    "slippage_ticks_per_side": 1.0,
+    "open_fee_rate": 2.3e-05,
+    "close_today_fee_rate": 0.00023,
+    "broker_extra_rate": 1e-05,
+    "order_fee_yuan_per_side": 1.0,
+    "margin_fraction": 0.2
+  }
+}

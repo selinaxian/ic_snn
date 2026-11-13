@@ -1,0 +1,15 @@
+{
+  "folds": 1,
+  "seeds": [
+    104,
+    211,
+    307
+  ],
+  "elapsed_seconds": 36.21800000034273,
+  "common_points": 750,
+  "live_points": 880,
+  "input_factor_and_label_rebuild_verified": true,
+  "frozen_weights_and_reload_verified": true,
+  "status": "complete",
+  "scope": "Historical diagnostic; not new unseen data; no strategy backtest"
+}

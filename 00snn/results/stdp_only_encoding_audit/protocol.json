@@ -1,0 +1,10 @@
+{
+  "input_to_readout": "ONLY full12x8x64 STDP spikes, no raw factors or voltage",
+  "target": "next-minute absolute log close return bp",
+  "readout": "fixed ridge MSE penalty .01, calibration only; nonnegative",
+  "reuse": "five already trained STDP networks; no additional STDP training",
+  "common": "different trained networks, common baseline encoding, each readout calibrated separately",
+  "native": "different trained networks, corresponding encodings, each readout calibrated separately",
+  "inference_only": "fixed baseline network AND baseline readout, change test encoding only",
+  "scope": "one initialization, first historical fold, five test days"
+}

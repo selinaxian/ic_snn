@@ -1,0 +1,34 @@
+{
+  "status_counts": {
+    "outside_date_range": 75,
+    "read_ok": 116
+  },
+  "selected_archives": 116,
+  "successful_dates": 116,
+  "raw_rows": 27840,
+  "merged_rows": 27840,
+  "exact_duplicates_removed": 0,
+  "duplicate_timestamp_groups": 0,
+  "conflicting_timestamp_groups": 0,
+  "flagged_rows": 0,
+  "issue_counts": {},
+  "abnormal_dates": [],
+  "schema_variants": [
+    {
+      "fields": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "open_interest",
+        "volume"
+      ],
+      "files": 116
+    }
+  ],
+  "source_metadata_unchanged": true,
+  "min_time": "2026-01-05 09:31:00",
+  "max_time": "2026-06-30 15:00:00",
+  "random_seed": null
+}

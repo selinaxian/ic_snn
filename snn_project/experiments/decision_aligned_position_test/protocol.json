@@ -1,0 +1,19 @@
+{
+  "beam": 24,
+  "max_expanded": 240,
+  "min_support": 20,
+  "pools": {
+    "random": {
+      "general_stop": "expansion_budget",
+      "short_stop": "expansion_budget",
+      "shapes": 132,
+      "fixed_patterns": 348
+    },
+    "stdp": {
+      "general_stop": "expansion_budget",
+      "short_stop": "expansion_budget",
+      "shapes": 144,
+      "fixed_patterns": 370
+    }
+  }
+}

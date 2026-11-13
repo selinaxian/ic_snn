@@ -1,0 +1,11 @@
+test_data_boundaries_and_labels (test_mechanisms.MechanismTests.test_data_boundaries_and_labels) ... ok
+test_encoder_chunk_invariant (test_mechanisms.MechanismTests.test_encoder_chunk_invariant) ... ok
+test_next_minute_retains_memory (test_mechanisms.MechanismTests.test_next_minute_retains_memory) ... ok
+test_prefix_invariance_and_frozen (test_mechanisms.MechanismTests.test_prefix_invariance_and_frozen) ... ok
+test_reset_preserves_parameters (test_mechanisms.MechanismTests.test_reset_preserves_parameters) ... ok
+test_stdp_local_timing (test_mechanisms.MechanismTests.test_stdp_local_timing) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.002s
+
+OK

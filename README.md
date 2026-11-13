@@ -1,4 +1,20 @@
-# 类脑计算 × 量化交易 —— 项目资料总目录
+# IC 股指期货 SNN 与 STDP 研究
+
+本仓库保存多因子脉冲编码、SNN/STDP 学习、读出与策略的历史研究。最新主线为 [gao](gao/README.md)，阶段报告位于 [gao/reports](gao/reports/2026-11-12_advisor_report/)。其他研究版本包括 [00snn](00snn/)、[snn_project](snn_project/README.md) 和 [snn_spikedetect](snn_spikedetect/)。工程流程完成不代表已验证金融增量或盈利。
+
+## 克隆后的数据还原
+
+大型 CSV、模型与发放记录以无损分卷保存于 [archives](archives/README.md)，克隆后在仓库根目录运行：
+
+```sh
+python archives/restore.py
+```
+
+代码、报告、小型结果表直接保留。按研究者要求，01 文献库、02 业界资料、03 调研报告、04 第三方参考代码及 `data/分钟线/` 中的全市场原始 ZIP 不上传；这些内容仍在原电脑本地。项目实际使用的 IC 数据包含在仓库或归档中。未包含虚拟环境和本地依赖缓存。
+
+## 本地资料目录的历史导航
+
+下方是此前本地资料目录说明，所列 01 至 04 目录不属于本次 GitHub 上传范围。
 
 > 调研整理时间：2026-10-19
 

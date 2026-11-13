@@ -1,0 +1,38 @@
+[
+  {
+    "fold": 1,
+    "pool": "random",
+    "density_max_error": 9.71445146547012e-17,
+    "chosen_neighbor_similarity_max_error": 3.523198434440822e-06
+  },
+  {
+    "fold": 1,
+    "pool": "stdp",
+    "density_max_error": 9.71445146547012e-17,
+    "chosen_neighbor_similarity_max_error": 4.7731984343935e-06
+  },
+  {
+    "fold": 2,
+    "pool": "random",
+    "density_max_error": 9.71445146547012e-17,
+    "chosen_neighbor_similarity_max_error": 3.10493295474501e-06
+  },
+  {
+    "fold": 2,
+    "pool": "stdp",
+    "density_max_error": 9.71445146547012e-17,
+    "chosen_neighbor_similarity_max_error": 2.4249484181781966e-06
+  },
+  {
+    "fold": 3,
+    "pool": "random",
+    "density_max_error": 9.71445146547012e-17,
+    "chosen_neighbor_similarity_max_error": 4.47184730867356e-06
+  },
+  {
+    "fold": 3,
+    "pool": "stdp",
+    "density_max_error": 9.71445146547012e-17,
+    "chosen_neighbor_similarity_max_error": 3.5652192884594314e-06
+  }
+]

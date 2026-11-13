@@ -1,0 +1,22 @@
+{
+  "archive_count": 191,
+  "formats": {
+    "zip": 181,
+    "7z": 10
+  },
+  "member_count": 2029,
+  "raw_rows": 392640,
+  "contract_count": 7,
+  "contract_rows": 124800,
+  "continuous_count": 6,
+  "continuous_rows": 267840,
+  "quarantined_rows": 0,
+  "removed_exact_duplicates": 0,
+  "quality_status_counts": {
+    "complete": 1636,
+    "not_in_archive": 454,
+    "empty_file": 393
+  },
+  "all_parquet_roundtrips_exact": true,
+  "all_selected_payloads_match_prior_audit": true
+}

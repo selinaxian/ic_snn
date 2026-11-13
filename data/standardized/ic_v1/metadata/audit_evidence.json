@@ -1,0 +1,23 @@
+{
+  "status": "all_selected_payload_hashes_match",
+  "source_index_sha256": "9dbf5c5082e14ae1e4e451c7a01cfc7c2ac6e25a40c64b5f22d009ed3f4f7aac",
+  "interpretation": "Retrospective consistency only; not a real-time contract selection rule.",
+  "copied_files": [
+    {
+      "file": "audit_summary.json",
+      "sha256": "31678548cf196e52a40a7096eff32536c8869e248ab204be3e90fd3e8592ee7a"
+    },
+    {
+      "file": "audit_ic_main_matches.csv",
+      "sha256": "9a75abf0bfa51c36c483209af2994b03f583868de0fb00f852c00efe5e75fb80"
+    },
+    {
+      "file": "audit_20260618_field_differences.csv",
+      "sha256": "3164f69b0abb705a436347d7e8355264edbb424545ae1c2cea98a239ab754ad1"
+    },
+    {
+      "file": "audit_missing_cffex_days.csv",
+      "sha256": "97d746ba3877508c689122b68a74568fc0a268f951eba6d4147a07643be8284d"
+    }
+  ]
+}

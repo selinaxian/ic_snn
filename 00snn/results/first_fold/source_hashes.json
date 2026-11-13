@@ -1,0 +1,16 @@
+{
+  "data\\bars.csv": "c91aeddae768386dbe42169555d75abd7e5f92edce6b7dfb0a1003dc5a596422",
+  "data\\folds.json": "34e46d4d24ffba437d1fea674e98265b4133a51d30fae9237683edd61a15104a",
+  "data\\provenance.json": "63363ff2f003ac291290b1c70c7b1409c58d72e8197b2fbcaca090ad2b628b0f",
+  "data\\reference_labels.npz": "2e2000f5362b5ba851bf717510a059d6219485ef4c5e56200dd0b0987c290899",
+  "data\\samples.csv": "d7f4390926886d7a30967158f61bd0b2f648981ac928966957535f6222e1bd5a",
+  "config.json": "8d14612ed712153b059409be410b0ff0bc9337f2fbceda9c602f913fafdcb6ce",
+  "src\\encoding.py": "b908c4cfa3496f9a25ba845a799fb7a1cd8a18be07fb8ed90d81b03b49bef3ea",
+  "src\\evaluation.py": "c0e39b68e9852d3200f48415ea3179b9bdc9b6e2560f1ec9af0e80ef05e44f91",
+  "src\\market_data.py": "66c86390cf3b29b93f111b8cfd2a9eb7c2acdf919ec6c77c2ac605ac15c60e6f",
+  "src\\network.py": "49a1b6cdea81868619f8eb70572d354c6be17375a616fce62790fbbde41981d1",
+  "src\\readout.py": "c128fcdfbc35622408feed4213867b092e2db9f0ae3a2d71cb23f144c4217378",
+  "src\\stdp.py": "98e76db646d118c17b792fa1448388b916b2e308f2d91d0b230798264a1d94dd",
+  "src\\__init__.py": "c8fc3bdf347078a1796c6736fade0653184cf121eae2ed38cdb168a62f252ff7",
+  "run.py": "941a5aab217fb997c7de5a419d17c0f357032afa0a92208813422fae579ea11c"
+}

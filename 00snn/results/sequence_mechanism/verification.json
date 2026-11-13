@@ -1,0 +1,18 @@
+{
+  "per_channel_count_match": true,
+  "training_shuffle_count_match": true,
+  "weights_frozen": true,
+  "models": 9,
+  "test_background_sessions": 32,
+  "test_cases_per_model": 320,
+  "elapsed_seconds": 88.73399999924004,
+  "status": "complete",
+  "connection_decomposition_max_error": 5.306866057708248e-14,
+  "selected_before_test": true,
+  "supplemental_component_check_complete": true,
+  "complete_encoding_test_cases": 245,
+  "supplemental_sources": {
+    "mechanism_component_check.py": "fe2c2996aaa3caff470ddee2a99728c3c9979ccc52c5aea9c5cdc403afcc8455",
+    "analyze_mechanism.py": "4b365fb7b2a56becbeb4a524e2ac9035c3944af9a4c34037b162b9d20aa41e8a"
+  }
+}

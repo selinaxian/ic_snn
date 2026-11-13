@@ -1,0 +1,13 @@
+{
+  "neuron": 20,
+  "key_channel": 2,
+  "control_channel": 8,
+  "selection_contrast": 0.26406250000000003,
+  "key_weight": 0.6270798432875766,
+  "key_initial_weight": 0.24980368814137255,
+  "control_weight": 0.25765159380695635,
+  "key_mean_input_count": 2.29375,
+  "control_mean_input_count": 0.96875,
+  "seed": 307,
+  "arm": "shuffled_stdp"
+}

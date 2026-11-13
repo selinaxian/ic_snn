@@ -1,0 +1,158 @@
+{
+  "archives": 191,
+  "archive_formats": {
+    "zip": 181,
+    "7z": 10
+  },
+  "compressed_bytes": 3067390294,
+  "first_archive_date": "20251204",
+  "last_archive_date": "20260915",
+  "monthly_archives": {
+    "2025-12": 20,
+    "2026-01": 20,
+    "2026-02": 14,
+    "2026-03": 22,
+    "2026-04": 21,
+    "2026-05": 18,
+    "2026-06": 21,
+    "2026-07": 23,
+    "2026-08": 21,
+    "2026-09": 11
+  },
+  "archive_statuses": {
+    "ok": 191
+  },
+  "total_entries": 1086503,
+  "total_files": 1081854,
+  "market_folders": {
+    "B股/sh": 8048,
+    "B股/sz": 6840,
+    "B转H": 35261,
+    "ETF/sh": 63547,
+    "ETF/sz": 62443,
+    "上海商品": 66872,
+    "上海股票期权": 137248,
+    "中金所期货": 13626,
+    "国债/sh": 39443,
+    "国债/sz": 38113,
+    "大连商品": 52825,
+    "指数/bj": 380,
+    "指数/sh": 183050,
+    "指数/sz": 70110,
+    "期权波动率": 26790,
+    "深圳股票期权": 102834,
+    "港股通": 116730,
+    "美元兑换": 1710,
+    "郑州商品": 53703,
+    "非美元兑换": 2281
+  },
+  "member_extensions": {
+    ".csv": 1081854
+  },
+  "cffex_files": 13626,
+  "cffex_headers": {
+    "date,open,high,low,close,open_interest,volume": 12865,
+    "": 761
+  },
+  "ic_named_contract_coverage": [
+    {
+      "symbol": "IC2606",
+      "files": 129,
+      "nonempty_days": 129,
+      "empty_days": 0,
+      "minute_rows": 30960,
+      "first_nonempty_date": "20251204",
+      "last_nonempty_date": "20260618",
+      "row_counts": "240"
+    },
+    {
+      "symbol": "IC2607",
+      "files": 149,
+      "nonempty_days": 44,
+      "empty_days": 105,
+      "minute_rows": 10560,
+      "first_nonempty_date": "20260518",
+      "last_nonempty_date": "20260717",
+      "row_counts": "240"
+    },
+    {
+      "symbol": "IC2608",
+      "files": 173,
+      "nonempty_days": 40,
+      "empty_days": 133,
+      "minute_rows": 9600,
+      "first_nonempty_date": "20260623",
+      "last_nonempty_date": "20260821",
+      "row_counts": "240"
+    },
+    {
+      "symbol": "IC2609",
+      "files": 190,
+      "nonempty_days": 156,
+      "empty_days": 34,
+      "minute_rows": 37440,
+      "first_nonempty_date": "20260119",
+      "last_nonempty_date": "20260915",
+      "row_counts": "240"
+    },
+    {
+      "symbol": "IC2610",
+      "files": 17,
+      "nonempty_days": 16,
+      "empty_days": 1,
+      "minute_rows": 3840,
+      "first_nonempty_date": "20260824",
+      "last_nonempty_date": "20260915",
+      "row_counts": "240"
+    },
+    {
+      "symbol": "IC2612",
+      "files": 190,
+      "nonempty_days": 98,
+      "empty_days": 92,
+      "minute_rows": 23520,
+      "first_nonempty_date": "20260420",
+      "last_nonempty_date": "20260915",
+      "row_counts": "240"
+    },
+    {
+      "symbol": "IC2703",
+      "files": 41,
+      "nonempty_days": 37,
+      "empty_days": 4,
+      "minute_rows": 8880,
+      "first_nonempty_date": "20260720",
+      "last_nonempty_date": "20260915",
+      "row_counts": "240"
+    }
+  ],
+  "main_exact_named_day_counts": {
+    "UNMATCHED": 74,
+    "IC2606": 60,
+    "IC2609": 57
+  },
+  "main_rolling_day_counts": {
+    "ICL0": 68,
+    "ICL2": 59,
+    "ICL1": 59,
+    "UNMATCHED": 5
+  },
+  "main_minute_match_counts": {
+    "minutes_with_one_named_match": 28318,
+    "minutes_with_no_named_match": 16322,
+    "minutes_with_multiple_named_matches": 0
+  },
+  "document_name_hits": 0,
+  "contract_files_outside_cffex": 0,
+  "errors": [],
+  "final_csv_comparison": {
+    "rows": 27840,
+    "equal": 27840,
+    "missing": [],
+    "different": []
+  },
+  "source_size_mtime_unchanged": true,
+  "final_csv_sha256": "0c19e89fae47e8fa5cff839a39f4667f4ad756f998876b0b8a244b6e08416721",
+  "script_sha256": "f73412e2c977adcf4a3c454380a5733ef7626cdb22e2971ae845693cbfd1c088",
+  "elapsed_seconds": 75.66013666242361
+}

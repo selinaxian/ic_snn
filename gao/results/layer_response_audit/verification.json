@@ -1,0 +1,16 @@
+{
+  "all_original_output_and_branch_counts_match": true,
+  "weights_unchanged": true,
+  "training": false,
+  "model_days": 1080,
+  "notes": [
+    "All existing 180 test dates, 3 seeds, random and STDP.",
+    "Constant control shares random numbers, changes rates/counts, including session_progress.",
+    "New encoding seed changes only test encoding; models fixed, one perturbation per seed.",
+    "Finance associations are historical descriptive checks, not out-of-sample evidence.",
+    "Count equality is not information-theoretic information loss or financial usefulness."
+  ],
+  "paired_rows": 427680,
+  "signal_rows": 641520,
+  "unique_keys_verified": true
+}

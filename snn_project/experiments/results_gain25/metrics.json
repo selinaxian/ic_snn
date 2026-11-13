@@ -1,0 +1,156 @@
+{
+  "config": {
+    "data": "data\\final.csv",
+    "output": "04_\u9879\u76ee\u4ee3\u7801\\ic_spike_baseline\\results_gain25",
+    "window": 30,
+    "horizon": 5,
+    "steps": 8,
+    "gain": 2.5,
+    "seed": 42
+  },
+  "day_ranges": [
+    [
+      "2026-01-05",
+      "2026-05-11",
+      81
+    ],
+    [
+      "2026-05-12",
+      "2026-06-03",
+      17
+    ],
+    [
+      "2026-06-04",
+      "2026-06-30",
+      18
+    ]
+  ],
+  "variants": {
+    "ohlc": {
+      "windows": [
+        2754,
+        578,
+        612
+      ],
+      "spike_rate_stdp_random": [
+        0.022507346149666763,
+        0.1781297682057737
+      ],
+      "internal_spike_rate_stdp_random": [
+        0.010318809635923335,
+        0.1754493553887072
+      ],
+      "mean_abs_weight_change": 0.1757542728767525,
+      "fraction_weights_changed": 0.798951048951049,
+      "metrics": {
+        "validation": {
+          "zero": {
+            "rmse_bp": 19.94767777481688,
+            "rank_ic": null,
+            "sign_match": 0.0034602076124567475
+          },
+          "raw_knn": {
+            "rmse_bp": 21.26701462707707,
+            "rank_ic": 0.011405750029864065,
+            "sign_match": 0.49480968858131485
+          },
+          "random_cube": {
+            "rmse_bp": 23.330609554454988,
+            "rank_ic": -0.03466238739103695,
+            "sign_match": 0.48788927335640137
+          },
+          "stdp_cube": {
+            "rmse_bp": 22.892392031353904,
+            "rank_ic": 0.0003926878160448682,
+            "sign_match": 0.513840830449827
+          }
+        },
+        "test": {
+          "zero": {
+            "rmse_bp": 20.517470324443035,
+            "rank_ic": null,
+            "sign_match": 0.00980392156862745
+          },
+          "raw_knn": {
+            "rmse_bp": 21.89617764144384,
+            "rank_ic": -0.009067734551572481,
+            "sign_match": 0.48366013071895425
+          },
+          "random_cube": {
+            "rmse_bp": 22.48690650110689,
+            "rank_ic": 0.06527749242626303,
+            "sign_match": 0.5065359477124183
+          },
+          "stdp_cube": {
+            "rmse_bp": 23.940237409090983,
+            "rank_ic": -0.042723358638306855,
+            "sign_match": 0.48856209150326796
+          }
+        }
+      }
+    },
+    "ohlc_volume_oi": {
+      "windows": [
+        2754,
+        578,
+        612
+      ],
+      "spike_rate_stdp_random": [
+        0.03773299122989713,
+        0.19428804320758475
+      ],
+      "internal_spike_rate_stdp_random": [
+        0.016621088090408576,
+        0.18952247676258832
+      ],
+      "mean_abs_weight_change": 0.1803192711975097,
+      "fraction_weights_changed": 0.798951048951049,
+      "metrics": {
+        "validation": {
+          "zero": {
+            "rmse_bp": 19.94767777481688,
+            "rank_ic": null,
+            "sign_match": 0.0034602076124567475
+          },
+          "raw_knn": {
+            "rmse_bp": 21.547341356949765,
+            "rank_ic": 0.007418343941646683,
+            "sign_match": 0.4826989619377163
+          },
+          "random_cube": {
+            "rmse_bp": 22.373825827083998,
+            "rank_ic": 0.00415028551428864,
+            "sign_match": 0.4930795847750865
+          },
+          "stdp_cube": {
+            "rmse_bp": 22.397759313495012,
+            "rank_ic": 0.03988587009664975,
+            "sign_match": 0.5224913494809689
+          }
+        },
+        "test": {
+          "zero": {
+            "rmse_bp": 20.517470324443035,
+            "rank_ic": null,
+            "sign_match": 0.00980392156862745
+          },
+          "raw_knn": {
+            "rmse_bp": 21.71516255141124,
+            "rank_ic": 0.022009813375618963,
+            "sign_match": 0.4918300653594771
+          },
+          "random_cube": {
+            "rmse_bp": 23.090883933372773,
+            "rank_ic": -0.01945304952502101,
+            "sign_match": 0.5049019607843137
+          },
+          "stdp_cube": {
+            "rmse_bp": 22.63059499918332,
+            "rank_ic": 0.003363944247010219,
+            "sign_match": 0.4918300653594771
+          }
+        }
+      }
+    }
+  }
+}

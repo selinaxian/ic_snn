@@ -1,0 +1,27 @@
+{
+  "seeds": [
+    43,
+    104,
+    211
+  ],
+  "train_sessions": 40,
+  "session_minutes": 120,
+  "patterns_per_session": 10,
+  "training_passes": 1,
+  "selection_contexts": 64,
+  "test_contexts": 128,
+  "model": {
+    "inputs": 11,
+    "gain": 2.5,
+    "side": 6,
+    "depression": 1,
+    "tau": 2
+  },
+  "encoding": "unchanged factor threshold encoder; center=0 scale=1 synthetic units",
+  "background": "N(0,0.35) on other features; A/B/C channels otherwise silent",
+  "response": "four steps starting at C time; excludes 11 input port neurons",
+  "unit_selection": "max mean ABC minus BAC spike count on selection only",
+  "population": "nearest selection ABC/BAC mean 4 x internal-neuron response; equal prior, Euclidean",
+  "limitation": "synthetic events; no assertion of real-market learning; no tuning; 128 independent contexts",
+  "frozen_financial": "all three existing folds, seed43, same synthetic probes; not trained on ABC"
+}

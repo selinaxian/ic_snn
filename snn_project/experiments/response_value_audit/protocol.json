@@ -1,0 +1,26 @@
+{
+  "window": 5,
+  "target": "abs(log(close[t+1]/close[t]))*10000 within segment",
+  "folds": [
+    [
+      81,
+      101,
+      121
+    ],
+    [
+      101,
+      121,
+      141
+    ],
+    [
+      121,
+      141,
+      161
+    ]
+  ],
+  "network": "reuse frozen traces and weights; no retraining",
+  "readout": "ridge MSE penalty 0.01; each block standardized to mean squared norm 1; calibration20 days only; no tuning",
+  "raw": "five steps of six existing factors standardized by training scale; no time-window or encoding changes",
+  "perturb": "reverse last5 encoded minutes; or circularly shift input channel0 by1 minute; 2 fixed endpoints per test session",
+  "scope": "historical diagnostic, no new untouched dates"
+}

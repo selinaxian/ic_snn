@@ -1,0 +1,29 @@
+{
+  "window": 12,
+  "steps": 8,
+  "target": "abs(log(close[t+1]/close[t]))*10000 within segment",
+  "network": "existing first fold; no retraining",
+  "calibration": [
+    "2026-03-18",
+    "2026-03-19",
+    "2026-03-20",
+    "2026-03-23",
+    "2026-03-24",
+    "2026-03-25",
+    "2026-03-26",
+    "2026-03-27",
+    "2026-03-30",
+    "2026-03-31"
+  ],
+  "test": [
+    "2026-04-01",
+    "2026-04-02",
+    "2026-04-03",
+    "2026-04-07",
+    "2026-04-08"
+  ],
+  "readout": "block-standardized ridge MSE penalty 0.01; calibration only; nonnegative output; mean of 3 seed predictions",
+  "perturb": "last12 encoded minute blocks reversed; or positive channel0 circularly shifted by1 minute; 2 fixed endpoints per test session",
+  "theta_control": "restore initial weights while retaining learned STDP theta; refit same readout",
+  "scope": "historical, one existing fold only; financial label differs from original delayed 5m labels"
+}

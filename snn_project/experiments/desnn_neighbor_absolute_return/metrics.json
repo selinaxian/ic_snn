@@ -1,0 +1,76 @@
+{
+  "target": "absolute five-minute net log return",
+  "unit": "bp",
+  "splits": {
+    "validation": {
+      "days": 35,
+      "samples": 5950,
+      "models": {
+        "raw": {
+          "rank_ic": 0.08519120458305884,
+          "mae_bp": 10.91878256604287,
+          "mean_within_neighbor_std_bp": 6.015151623494704,
+          "mean_abs_neighbor_target_error_bp": 11.523363087532278
+        },
+        "random_pool": {
+          "rank_ic": 0.014811294315069065,
+          "mae_bp": 10.63435538854218,
+          "mean_within_neighbor_std_bp": 6.275987988404666,
+          "mean_abs_neighbor_target_error_bp": 12.07267673413017
+        },
+        "stdp_pool": {
+          "rank_ic": 0.034202107563274825,
+          "mae_bp": 11.462484255090585,
+          "mean_within_neighbor_std_bp": 7.866931897239024,
+          "mean_abs_neighbor_target_error_bp": 13.069940979907718
+        }
+      },
+      "uniform_mean_within_neighbor_std_bp": 7.866831047757369,
+      "stdp_minus_control_rank_ic_ci": {
+        "raw": [
+          -0.09633669945573835,
+          -0.011896566950043827
+        ],
+        "random_pool": [
+          -0.01943440703488587,
+          0.05636884986683322
+        ]
+      }
+    },
+    "diagnostic": {
+      "days": 41,
+      "samples": 6970,
+      "models": {
+        "raw": {
+          "rank_ic": 0.11409776191581124,
+          "mae_bp": 12.455097984682318,
+          "mean_within_neighbor_std_bp": 6.578375675007203,
+          "mean_abs_neighbor_target_error_bp": 12.845504590836127
+        },
+        "random_pool": {
+          "rank_ic": 0.02515697171310335,
+          "mae_bp": 12.05527019954351,
+          "mean_within_neighbor_std_bp": 6.255832448003806,
+          "mean_abs_neighbor_target_error_bp": 13.438664268639526
+        },
+        "stdp_pool": {
+          "rank_ic": 0.02835249896360138,
+          "mae_bp": 12.784348055961877,
+          "mean_within_neighbor_std_bp": 7.860376053134195,
+          "mean_abs_neighbor_target_error_bp": 14.427475347239701
+        }
+      },
+      "uniform_mean_within_neighbor_std_bp": 7.964468543453499,
+      "stdp_minus_control_rank_ic_ci": {
+        "raw": [
+          -0.13708582230211744,
+          -0.03746478652409837
+        ],
+        "random_pool": [
+          -0.031539915944546235,
+          0.03795096557117801
+        ]
+      }
+    }
+  }
+}

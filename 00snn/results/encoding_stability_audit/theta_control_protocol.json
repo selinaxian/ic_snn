@@ -1,0 +1,1 @@
+{"status": "supplement added after main results; not preregistered primary outcome", "reason": "random weights stayed identical but common-input responses changed: learned theta differs", "method": "use baseline encoding and respective pool baseline theta; keep each trained weight; fixed baseline readout, no refit"}

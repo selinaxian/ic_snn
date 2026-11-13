@@ -1,0 +1,4 @@
+numpy>=2.0
+pandas>=2.2
+# Only needed for one-time import of the prior project's Parquet data:
+pyarrow>=19

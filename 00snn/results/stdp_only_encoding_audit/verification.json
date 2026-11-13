@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "readout_features": 6144,
+  "raw_features_in_readout": 0,
+  "all_saved_test_traces_exact": true,
+  "baseline_common_native_exact": true,
+  "prediction_reconstruction_max_error": 0,
+  "test_minutes": 880,
+  "test_labeled": 870,
+  "source_hash": "9f682bfaab6a0199ea3e9705e6f61464017a38d6f5b0219b0ec35fdcaefc16df"
+}

@@ -1,0 +1,18 @@
+{
+  "source_root": "../分钟线",
+  "output_root": "outputs/data",
+  "start_date": "2026-01-01",
+  "end_date": "2026-06-30",
+  "target_folder": "中金所期货",
+  "target_filename": "ICL8_中证主连.csv",
+  "reference_sessions": [
+    [
+      "09:31",
+      "11:30"
+    ],
+    [
+      "13:01",
+      "15:00"
+    ]
+  ]
+}

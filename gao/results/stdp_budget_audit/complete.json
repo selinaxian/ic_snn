@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "baseline_weights_exact": true,
+  "baseline_predictions_exact": true,
+  "accounts_reconcile": true,
+  "test_weights_frozen": true,
+  "elapsed_seconds": 180.0789999999106,
+  "trained_models": 1080,
+  "random_models": 540,
+  "minute_rows": 1283040,
+  "unique_minutes": 35640,
+  "signal_unique_keys_verified": true
+}

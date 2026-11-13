@@ -1,0 +1,7 @@
+{
+  "scope": "diagnostic only, no fitting, no future labels in interventions",
+  "constant": "each raw factor fixed at its saved training-day mean; both normalized branches have rate0.13; same bar-key RNG",
+  "zero": "all external spikes zero from segment start; confirms no spontaneous response from rest",
+  "actual": "reproduce original test spike counts exactly",
+  "limitation": "constant-rate control changes rates and counts; tests response specificity, not an isolated timing shuffle"
+}

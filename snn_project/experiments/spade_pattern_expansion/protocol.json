@@ -1,0 +1,10 @@
+{
+  "beam": 24,
+  "max_expanded": 240,
+  "max_size": 216,
+  "min_support": 20,
+  "stopping": {
+    "random": "expansion_budget",
+    "stdp": "expansion_budget"
+  }
+}
