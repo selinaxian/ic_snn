@@ -1,0 +1,14 @@
+# Rebuildable local runtime dependencies and caches
+**/.venv/
+**/.dependencies/
+**/__pycache__/
+*.pyc
+*.pyo
+# Local credentials must not be uploaded
+.env
+.env.*
+!.env.example
+!.env.sample
+**/credentials.json
+**/.DS_Store
+Thumbs.db
